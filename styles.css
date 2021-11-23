@@ -1,13 +1,13 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Graphik LCG";
+  font-family: "Graphik LCG", sans-serif;
   background-color: #e5e5e5;
 }
 .container {
   margin: 0 auto;
   padding: 0px 75px;
-  max-width: 1440px;
+  max-width: 1290px;
 }
 .header {
   background-color: #fff;
@@ -113,7 +113,8 @@ body {
 .main-banner-wrap {
   background-image: url("image/Main_Banner.png");
   background-repeat: no-repeat;
-  background-position: 90% 50%;
+  background-position: 100% 50%;
+  background-size: 51%;
   padding: 130px 0px 170px 0px;
 }
 .main-banner-text {
