@@ -28,8 +28,15 @@ body {
   display: flex;
   align-items: center;
 }
-.navigation-link {
+.navigation-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.navigation-item {
   margin-right: 50px;
+}
+.navigation-link {
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
@@ -574,4 +581,109 @@ body {
 .rigrhts-left {
   display: flex;
   align-content: center;
+}
+
+@media (max-width: 1290px) {
+  .navigation-links {
+    display: flex;
+  }
+  .navigation-wrap {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 3%;
+  }
+  .buttons {
+    margin-bottom: 3%;
+  }
+  .navigation {
+    flex-direction: column;
+  }
+  .main-banner-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: 50% 94%;
+    padding: 130px 0px 295px 0px;
+  }
+  .companie-logo {
+    margin-right: 10%;
+  }
+  .main-title {
+    text-align: center;
+  }
+  .main-banner-text {
+    text-align: center;
+  }
+  .subtitle {
+    text-align: center;
+  }
+  .ad-text {
+    text-align: center;
+  }
+  .ad-link {
+    text-align: center;
+    margin-bottom: 3%;
+  }
+  .companies-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  .companie-logo:nth-child(3n) {
+    margin-right: 0;
+  }
+  .ad-wrap-left {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ad-wrap-right {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sample-card {
+    margin-right: 0;
+  }
+  .sample-card-title {
+    margin-top: 0;
+    font-size: 275%;
+  }
+  .sample-card-text {
+    margin-top: 0;
+    font-size: 130%;
+  }
+  .loc-team-cards-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .loc-team-card {
+    align-items: center;
+    margin-right: 0;
+    margin-top: 10%;
+  }
+  .quote-photo {
+    max-width: 100%;
+  }
+  .quote-text {
+    text-align: center;
+  }
+  .quote-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .quote-name {
+    text-align: center;
+    font-size: 100%;
+    margin-bottom: 3%;
+  }
+  .quote-revolut-logo {
+    margin-bottom: 3%;
+  }
+  .quote-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
 }
