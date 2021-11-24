@@ -684,7 +684,7 @@ body {
     margin-bottom: 3%;
   }
   .quote-revolut-logo {
-    margin-bottom: 3%;
+    margin-bottom: 10%;
   }
   .quote-wrap {
     flex-direction: column;
@@ -728,5 +728,150 @@ body {
   .footer-navigation-column {
     margin-right: 3%;
     max-width: 160px;
+  }
+}
+@media (max-width: 360px) {
+  .ad-image {
+    max-width: 300px;
+  }
+  .navigation-links {
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    flex-direction: column;
+    margin-bottom: 0;
+    justify-content: space-between;
+  }
+  .navigation-link {
+    font-weight: 700;
+  }
+  .navigation-item {
+    margin-bottom: 10%;
+    text-align: center;
+    margin-right: 0;
+  }
+  .logo {
+    margin-right: 0;
+  }
+  .sample-card-title {
+    font-size: 180%;
+  }
+  .subtitle {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .companies-logos {
+    flex-direction: column;
+  }
+  .companie-logo {
+    margin-right: 0;
+    margin-bottom: 17%;
+  }
+  .main-banner-subtext {
+    text-align: center;
+  }
+  .main-title {
+    font-size: 50px;
+  }
+  .main-banner-wrap {
+    background-size: 100%;
+    background-position: 50% 90%;
+    padding: 10% 0 120% 0;
+  }
+  .header {
+    padding: 10% 0;
+  }
+  .sample-card:last-child {
+    margin-bottom: 0;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+  .white-button-small {
+    margin-right: 3%;
+    margin-bottom: 0%;
+  }
+  .orange-button {
+    margin-right: 0;
+    margin-bottom: 5%;
+  }
+  .white-button {
+    margin-right: 0;
+  }
+  .ad {
+    margin-bottom: 15%;
+  }
+  .samples {
+    padding: 10% 0;
+  }
+  .ads {
+    padding: 10% 0;
+  }
+  .companies-wrap {
+    padding: 10% 0;
+  }
+  .loc-team {
+    padding: 10% 0;
+  }
+  .quote {
+    padding: 10% 0;
+  }
+  .love-us-title {
+    font-size: 32px;
+  }
+  .love-us {
+    padding: 10% 0;
+  }
+  .love-us-rate-card {
+    margin-right: 0;
+    align-items: center;
+  }
+  .love-us-rate {
+    flex-direction: column;
+  }
+  .rate-logo {
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin-left: 72%;
+  }
+  .whywait {
+    padding: 10% 0;
+  }
+  .case-studies-image {
+    display: none;
+  }
+  .footer-main {
+    flex-direction: column;
+  }
+  .case-studies {
+    padding: 10% 0;
+    border-bottom: 1px solid black;
+  }
+  .footer {
+    padding: 10% 0;
+  }
+  .footer-rights {
+    padding: 10% 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .rights-right {
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+  }
+  .rigrhts-left {
+    flex-direction: column;
+  }
+  .rights-logo {
+    margin-right: 0;
+    width: 75%;
+    align-self: center;
+  }
+  .rights-text {
+    text-align: center;
+  }
+  .header-buttons {
+    flex-direction: row;
   }
 }
